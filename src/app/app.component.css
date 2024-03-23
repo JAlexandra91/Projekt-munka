@@ -1,0 +1,181 @@
+body{
+    background-image: url(../assets/images/lavender-purple-vector-seamless-pattern-violet-lavender-hand-draw-background_194547-417.jpg);
+    background-repeat: repeat;
+}
+
+
+
+.container-fluid{
+    background-color: white;
+    height: 80px;
+    justify-content: center;
+
+}
+
+.navbar-brand{
+    color: rgb(119, 42, 135);
+    font-family: Merienda;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.container2{
+    display: flex;
+    max-width: 960px;
+    margin-top: 20px;
+    margin: 0 auto;
+   
+}
+
+.box{
+    display: flex;
+    flex: 1;
+    transition: 0.5s;
+}
+
+.box img{
+    transition: 0.5s;
+    width: 100%;
+    height: 512px;
+    object-fit: cover;
+   
+}
+
+.box:hover{
+    flex: 3;
+}
+
+
+.cim{
+    margin-top: 20px; 
+    display: flex; 
+    justify-content: center; 
+    color: rgb(119, 42, 135);
+    height: 70px;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Merienda';
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-color: white;    
+}
+
+
+.cim2{
+    color: rgb(187, 143, 196);
+    background-color: white;
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    height: 100px;
+    font-family: Merienda;
+    padding:20px;
+}
+
+
+.cim3{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: rgb(187, 143, 196);
+    font-family: 'Merienda';
+}
+
+#cim3box{
+    background-color: white;
+    margin-left: 20px; 
+    width: 450px; 
+    text-align: center;
+}
+
+#cim3box h2
+#cim4box h2
+#cim5box h2{
+    color: rgb(153, 84, 167);
+}
+
+
+#cim3box h4
+#cim4box h4
+#cim5box h4{
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 20px;
+    
+}
+
+
+
+.cim4{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: rgb(187, 143, 196);
+    font-family: 'Merienda';
+}
+
+#cim4box{
+    background-color: white; 
+    margin-right: 20px; 
+    width: 450px; 
+    text-align: center;
+}
+
+
+
+.cim5{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: rgb(187, 143, 196);
+    font-family: 'Merienda';
+}
+
+#cim5box{
+    background-color: white; 
+    margin-left: 20px; 
+    width: 450px; 
+    text-align: center;
+}
+
+
+
+
+#gomb{
+    height: 50px; 
+    width: 160px; 
+    background: rgb(119, 42, 135);
+    color: white; 
+    border-radius: 20px;
+    border-color: rgb(187, 143, 196); ;
+    font-family: 'Merienda';
+    margin-top: 50px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+
+
+.form{
+    width: 800px;
+    margin-top: 50px;
+   font-family: Merienda;
+   color: rgb(119, 42, 135);
+}
+
+
+.footer{
+    background-color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(187, 143, 196);
+    font-family:'Merienda';
+    margin-top: 100px;
+    padding-top: 20px;
+}
